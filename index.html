@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+    <!--Font Awesome cnd link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <header class="header">
+        <div class="logo">
+            <img src="image/h1.svg" alt="Tripadvisor">
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Discover</a>
+            <a href="#">Trips</a>
+            <a href="#">Review</a>
+            <a href="#">Forums</a>
+
+        </nav>
+
+        <div class="navbar__p4">
+            <button class="one">
+                <i class="fa-solid fa-globe" style="color: #01060e;"></i>
+                |
+                <p>INR</p>
+            </button>
+            <div>
+                <button class="two">Sign in</button>
+            </div>
+        </div>
+        </header>
+
+        <div class="sectionbar">
+            <div class="sectionbar__s1">
+                <h1>Where to?</h1>
+                <div class="sectionbar__s2">
+                    <ul>
+                        <li><i class="fa-solid fa-house" style="color: #040506;"></i>Search</li>
+                        <li><i class="fa-solid fa-hotel" style="color: #000000;"></i>Hotels</li>
+                        <li><i class="fa-solid fa-ticket" style="color: #020203;"></i>Things to Do</li>
+                        <li><i class="fa-solid fa-utensils" style="color: #000000;"></i>Restaurants</li>
+                        <li><i class="fa-solid fa-plane-circle-check" style="color: #000000;"></i>Flights</li>
+                        <li><i class="fa-solid fa-house-lock" style="color: #000000;"></i>Holiday Home</li>
+                    </ul>
+                </div>
+                <div class="sectionbar__s3">
+                    <div class="search-wrapper">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Where are you going?">
+                    
+                    <button>Search</button>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!--Sale Image-->
+        <div class="banner-section">
+            <div class="banner-content">
+                <div class="text-content">
+                    <h6>Powered by AI <span class="beta-tag">BETA</span></h6>
+                    <h1>Get custom recs for your next trip</h1>
+                    <p>
+                        Find great eats, experiences, and more—<br />
+                        inspired by things you love.
+                    </p>
+                    <button>
+                        <i class="icon"></i> Start a trip with AI
+                    </button>
+                </div>
+                <div class="image-content">
+                    <img src="./image/banner-img.png" alt="Mockup Image">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="destinations">
+            <h2>Explore top-rated destinations</h2>
+            <p>2025’s Travellers’ Choice Awards Best of the Best Destinations</p>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="./image/s1.jpg" alt="Top Destinations">
+                    <div class="destination-overlay">
+                        <p>Top Destinations</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="./image/s2.jpg" alt="Trending Destinations">
+                    <div class="destination-overlay">
+                        <p>Trending Destinations</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="./image/s3.jpg" alt="Food Destinations">
+                    <div class="destination-overlay">
+                        <p>Food Destinations</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="./image/s4.jpg" alt="Culture Destinations">
+                    <div class="destination-overlay">
+                        <p>Culture Destinations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recommended">
+            <h2 class="recommended__title">Get inspired by our fave travel creator</h2>
+            <p>Tired-and-true guidance to fuel your next big trip</p>
+            <div class="recommended__container">
+                <div class="course-card">
+                    <img src="./image/r1.jpg">
+                    <h5> By Asthlyn S</h5>
+                    <p>3 family-friendly days in Rome</p>
+                    <br>
+                    <p>💗</p>
+                    <p class="will">30 items</p>̥
+                </div>
+                <div class="course-card">
+                    <img src="./image/r2.jpg">
+                    <h5>By Eleen Ivette</h5>
+                    <p>The ultimate 'workcation' in Mexico City</p>
+                    <br>
+                    <p>💗</p>
+                    <p class="will">28 items</p>
+                </div>
+                <div class="course-card">
+                    <img src="./image/r3.jpg">
+                    <h5>By Two Bad Tourists</h5>
+                    <p>Exploring LGBTQ+-friendly Barcelona</p>
+                    <br>
+                    <p>💗</p>
+                    <p class="will">28 items</p>
+                </div>
+                </div>
+                </div>
+
+                <!--Recommended-->
+<div class="popular">
+    <h1 class="popular__title">Top experiences on Tripadvisor</h1>
+    <p>The best tours, activites and tickets</p>
+    <div class="popular__container">
+        <div class="travel-card">
+            <img src="./image/b1.jpg">
+            <button>BEST SELLER</button>
+            <h3> Half-Day Railway Market and Floating Market Tour in Thailand</h3>
+            
+            <p><i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i> 3,192</p>
+            <p>from ₹2,643 per adult</p>̥
+        </div>
+        <div class="travel-card">
+            <img src="./image/b2.jpg">
+            <h3>Foutainhas Heritage Walk by Make It Happen</h3>
+            
+            <p><i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i> 2,563</p>
+            <p>from ₹1,000 per adult</p>
+        </div>
+        <div class="travel-card">
+            <img src="./image/b3.jpg">
+            <h3>Ninh Binh Full-Day Tour from Hanoi to Haa Lu, Tam Coc & Mua Cave Via Boat & Bike</h3>
+            
+            <p><i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i> 3,498</p>
+            <p>from ₹4,862 per adult</p>
+        </div>
+        <div class="travel-card">
+            <img src="./image/b4.jpg">
+            <h3>Cu Chi Tunnels and Mekong Delta Full Day Tour</h3>
+            
+            <p><i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i>
+                <i class="fa-solid fa-circle" style="color: #00aa6c;"></i> 4,787</p>
+            <p>from ₹4,950 per adult</p>
+        </div>
+    </div>
+</div>
+
+<div class="explore">
+    <h2 class="explore__title">More To Explore</h2>
+    <div class="explore__container">
+        <div class="explore__img">
+            <img src="./image/e1.jpg" alt="explore-food">
+            <p>7 Bangkok hotels that highlight Thailand's spectacular architecture</p>
+        </div>
+        <div class="explore__img">
+            <img src="./image/e2.jpg" alt="explore-food">
+            <p>3 days in Tokyo: The perfect itinerary</p>
+        </div>
+        <div class="explore__img">
+            <img src="./image/e3.jpg" alt="explore-food">
+            <p>Where Bali's best chefs go on their days off</p>
+        </div>
+    </div>
+</div>
+
+<div class="destinations">
+    <h2>Dream Your Next Trip</h2>
+    <p>Weekend getaways from Vellore</p>
+    <div class="destinations-grid">
+        <div class="destination-card">
+            <img src="./image/d1.jpg" alt="Top Destinations">
+            <div class="destination-overlay">
+                <p>Chennai<br>
+                    (Madras),India
+                    
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/d2.jpg" alt="Trending Destinations">
+            <div class="destination-overlay">
+                <p>Bengaluru,<br>
+                    India
+
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/d3.jpg" alt="Food Destinations">
+            <div class="destination-overlay">
+                <p>Mahabalipuram,<br>
+                    India
+
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/d4.jpg" alt="Culture Destinations">
+            <div class="destination-overlay">
+                <p>Ooty<br>
+                (Udhagamandalan) India</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="destinations">
+    <h2>Top destinations for your next holiday</h2>
+    <p>Here's where your fellow travellers are headed</p>
+    <div class="destinations-grid">
+        <div class="destination-card">
+            <img src="./image/w1.jpg" alt="Top Destinations">
+            <div class="destination-overlay">
+                <p>Bangkok,<br>
+                    Thailand
+                    
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/w2.jpg" alt="Trending Destinations">
+            <div class="destination-overlay">
+                <p>Singapore,<br>
+                    Singapore
+
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/w3.jpg" alt="Food Destinations">
+            <div class="destination-overlay">
+                <p>Mumbai,<br>
+                    India
+
+                </p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="./image/w4.jpg" alt="Culture Destinations">
+            <div class="destination-overlay">
+                <p>Bali<br>
+                ,Indonesia</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bike">
+    <div class="bike__s1">
+        <img src="./image/wanderlap-bike.jpg" alt="bike-drive">
+        <div class="bike__s2">
+            <img src="./image/trip-1.svg" alt="trip-loga" >
+            <h4>Sponsored by Wanderlab</h4>
+            <h2>Watch The Wanderer</h2>
+            <p>Tripadvisor’s award-winning travel series,
+                 now streaming on Amazon Prime Video</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+</div>
+
+<div class="area">
+    <img src="./image/travellers.png" alt="travel-go">
+</div>
+
+<div class="footer">
+    <div class="section1">
+        <p>About Tripadvisor</p>
+        <ul>
+            <li>About Us</li>
+            <li>Press</li>
+            <li>Resources and Policies</li>
+            <li>Careers</li>
+            <li>Trust & Safety</li>
+            <li>Contact us</li>
+            <li>Accessibility Statement</li>
+        </ul>
+    </div>
+    <div class="section2">
+        <p>Explore</p>
+        <ul>
+            <li>Write a review</li>
+            <li>Add a Place</li>
+            <li>Join</li>
+            <li>Travellers' Choice</li>
+            <li>GreenLeaders</li>
+            <li>Help Centre</li>
+            <li>Travel Articles</li>
+        </ul>
+    </div>
+    <div class="section3">
+        <p>Do Business With Us</p>
+        <ul>
+            <li>Owners & DMO/CVB</li>
+            <li>Business Advantage</li>
+            <li>Sponsored Placements</li>
+            <li>Access our Content API</li>
+        </ul>
+        <p>Get The App</p>
+        <ul>
+            <li>iPhone App</li>
+            <li>Android App</li>
+        </ul>
+    </div>
+    <div class="section4">
+        <p>Tripadvisor Sites</p>
+        <h6>Book tours and attraction tickets on<a> Viator</a> </h6>
+    </div>
+</div>
+
+<div class="footer2">
+    <div class="section5">
+        <img src="./image/trip-1.svg">
+    </div>
+    <div class="section6">
+        <p>&copy; 2025 Tripadvisor LLC All rights reserved.</p>
+        <a>Terms of Use</a>   <a>Privacy and Cookies Statement</a>   <a>Cookie consent</a><a>Site Map</a>
+        <br><a>How the site works</a>   <a>Contact Us</a>
+    </div>
+    <div class="section7">
+        <select name="">
+            <option>INR</option>
+        </select> 
+    
+    
+        <select>
+            <option>India</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="footer3">
+    <div class="section8">
+        <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select<br>the appropriate version of Tripadvisor for your country or region in the drop-down menu.</p>
+    </div>
+    <div class="section9">
+        <a href="#"><i class="fa-brands fa-facebook" style="color: #00040a;"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter" style="color: #00040a;"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>
+    </div>
+</div>
+
+
+
+
+                
+        
+        
+        
+        
+
+    
+
+</body>
+
+</html>
