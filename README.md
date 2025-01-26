@@ -12,7 +12,7 @@ Welcome to the **TripAdvisor Clone** project! 🌍 This project is a web-based p
 
 ## 🚀 Live Demo
 
-[Live Demo](#) (Add your deployed project link here)
+[Live Demo](#) (https://prabudhayalan.github.io/Tripadvisor-clone/)
 
 ---
 
